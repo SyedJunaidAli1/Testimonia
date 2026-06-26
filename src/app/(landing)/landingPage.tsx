@@ -122,7 +122,7 @@ const Landing = () => {
               </p>
             </motion.div>
             <motion.div
-              className="flex items-center justify-center mt-12 px-10"
+              className="flex items-center justify-center mt-12"
               initial={{ opacity: 0, y: 50, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{
@@ -147,7 +147,7 @@ const Landing = () => {
             >
               <iframe
                 src={embedUrl}
-                width="70%"
+                width="80%"
                 height="600px"
                 scrolling="auto"
                 style={{
