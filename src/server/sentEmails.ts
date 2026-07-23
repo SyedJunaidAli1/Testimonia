@@ -20,7 +20,7 @@ export async function sendEmailToUser({
   const resend = new Resend();
 
   await resend.emails.send({
-    from: "Your App <noreply@todothat.space>",
+    from: "Your App <noreply@todothat.online>",
     to: recipientEmail,
     subject,
     html: `<p>${content}</p>`,

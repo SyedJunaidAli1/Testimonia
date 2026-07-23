@@ -12,7 +12,7 @@ export const auth = betterAuth({
     enabled: true,
     sendResetPassword: async ({ user, url, token }, request) => {
       await resend.emails.send({
-        from: "noreply@todothat.space",
+        from: "noreply@todothat.online",
         to: user.email,
         subject: "Reset your Testimonia password",
         html: `
